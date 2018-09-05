@@ -24,4 +24,5 @@ bool map_set(struct map_t* map , int key , int value);
 bool map_contains_key(struct map_t* map , int key);
 int map_get(struct map_t* map , int key);
 int map_delete(struct map_t* map , int key);
+void map_trunk(struct map_t* map);
 
